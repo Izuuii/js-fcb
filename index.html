@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e272c06225.js" crossorigin="anonymous"></script>
+
+    <!-- This especially for when the web app is being shared,
+    there will be an displayed information about our app. -->
+    <meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta property="og:image" content="[your-deployment-link]/images/story-thumbnail-2048.jpg" />
+    <meta property="og:image:secure_url" content="[your-deployment-link]" />
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- heading -->
+        <h1>2048</h1>
+        <h3>Created by: Dan Denver De Leon</h3>
+        <hr id="top-line">
+        
+        <div class="header-container">
+            <div class="score-container">
+                <div class="score-label">
+                    Score:
+                </div>
+                <div id="score">
+                    0
+                </div>
+            </div>
+
+            <div class="share-button-container">
+                <div class="share-label">Share: </div>
+                <div class="share-icons">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=[your-deployment-link]" target="_blank">
+						<img src="./images/share_2048-fb.svg">	
+					</a>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div id="board"></div>
+
+    </div>
+
+    <footer>
+        <a href="https://zuitt.co/?referral=2402-org-ali" target="_blank">
+            <i class="fa-solid fa-globe"></i>
+        </a>
+
+        <a href="https://www.facebook.com/zuitttechcareer" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://twitter.com/zuittco" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/zuitt_co/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@zuittco" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@ZuittCo" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+
+    </footer>
+
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
